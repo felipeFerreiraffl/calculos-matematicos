@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+  /* Fontes */
+  --header-large: bold 48px 'DM Sans', sans-serif;
+  --header-large-2: bold 40px 'DM Sans', sans-serif;
+  --header-mid: bold 36px 'DM Sans', sans-serif;
+  --header-mid-2: bold 32px 'DM Sans', sans-serif;
+  --header-small: bold 24px 'DM Sans', sans-serif;
+  --header-button: bold 20px 'DM Sans', sans-serif;
+  --text-large: normal 48px 'DM Sans', sans-serif;
+  --text-mid: normal 36px 'DM Sans', sans-serif;
+  --text-mid-2: normal 32px 'DM Sans', sans-serif;
+  --text-small: normal 24px 'DM Sans', sans-serif;
+
+  /* Cores */
+  --math-red: #FF4747;
+  --page-white: #FFFFFF;
+  --physics-blue: #4682B4;
+  --imc-green: #7FFF00;
+  --fees-yellow: #FFE03B;
+  --page-black: #000000;
+  --logo-purple: #BA55D3;
+  --logo-dark-purple: #571F7D;
+  --background-light-pink: #DDA0DD;
+  --low-level: #00FF44;
+  --normal-level: #48FF00;
+  --above-level: #BFFF00;
+  --obesity-1-level: #FFE100;
+  --obesity-2-level: #FF8C00;
+  --obesity-3-level: #FF1A00;
+  --gradient-background: linear-gradient(to right, #EE82EE, #DDA0DD);
+  --gradient-purple: linear-gradient(#BA55D3, #571F7D);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

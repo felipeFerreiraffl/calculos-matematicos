@@ -1,0 +1,29 @@
+.home-pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(../../assets/Home/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-blend-mode: soft-light;
+
+    background-color: var(--background-light-pink);
+}
+
+.home-logo {
+    width: 350px;
+    margin-top: 106px;
+}
+
+.home-botao-area {
+    display: flex;
+
+    margin-top: 94px;
+    gap: 82px;
+}
