@@ -1,0 +1,25 @@
+.header-botao {
+    cursor: pointer;
+
+    width: 200px;
+    height: 60px;
+
+    font: var(--header-button);
+    color: var(--page-black);
+    background: var(--gradient-background);
+    border: solid 5px var(--logo-dark-purple);
+    border-radius: 50px;
+
+    transition: 0.4s ease-in-out;
+}
+
+.header-botao:hover {
+    border: solid 5px var(--logo-purple);
+    transform: scale(1.1);
+    color: var(--logo-dark-purple);
+}
+
+.header-botao.active {
+    border: solid 5px var(--logo-purple);
+    color: var(--logo-dark-purple);
+}

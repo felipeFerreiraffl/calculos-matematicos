@@ -1,0 +1,43 @@
+.header-voltar-area {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding: 35px 320px;
+
+    background-image: url(../../assets/Home/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-blend-mode: screen;
+    box-shadow: inset 0px -30px 30px var(--page-white);
+
+    background-color: var(--background-light-pink);
+}
+
+.header-voltar-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    text-decoration: none;
+
+    color: var(--page-black);
+
+    transition: 0.4s ease-in-out;
+}
+
+.header-voltar-link:hover {
+    color: var(--logo-dark-purple);
+    transform: scale(1.1);
+}
+
+
+.header-voltar-icon {
+    font-size: 40px;
+}
+
+.header-voltar-titulo {
+    font: var(--header-small);
+}

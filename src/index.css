@@ -14,12 +14,20 @@
   --text-small: normal 24px 'DM Sans', sans-serif;
 
   /* Cores */
-  --math-red: #FF4747;
-  --page-white: #FFFFFF;
-  --physics-blue: #4682B4;
-  --imc-green: #7FFF00;
-  --fees-yellow: #FFE03B;
   --page-black: #000000;
+  --page-white: #FFFFFF;
+  --math-red: #FF4747;
+  --math-red-70: #FF7E7E;
+  --math-red-50: #FFA3A3;
+  --physics-blue: #4682B4;
+  --physics-blue-70: #7EA8CB;
+  --physics-blue-50: #A2C0D9;
+  --imc-green: #7FFF00;
+  --imc-green-70: #B2FF66;
+  --imc-green-50: #BFFF80;
+  --fees-yellow: #FFE03B;
+  --fees-yellow-70: #FFE976;
+  --fees-yellow-50: #FFF09D;
   --logo-purple: #BA55D3;
   --logo-dark-purple: #571F7D;
   --background-light-pink: #DDA0DD;

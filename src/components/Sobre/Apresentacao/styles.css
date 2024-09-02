@@ -1,0 +1,72 @@
+.sobre-apresentacao {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+
+    background-image: url("../../../assets/Sobre/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-blend-mode: screen;
+
+    background-color: var(--background-light-pink);
+}
+
+.sobre-texto {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 107px;
+}
+
+.sobre-texto-expo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    margin-left: 61px;
+    
+    color: var(--page-black);
+}
+
+.sobre-texto-1 {
+    font: var(--text-large);
+}
+
+.sobre-texto-2 {
+    margin-top: 44px;
+
+    font: var(--text-mid);
+}
+
+.sobre-texto-3 {
+    margin-top: 38px;
+
+    font: var(--text-small);
+}
+
+.sobre-texto-final {
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    margin-bottom: 35px;
+    gap: 11px;
+
+    color: var(--page-black);
+}
+
+.sobre-texto-msg {
+    font: var(--header-button);
+}
+
+.sobre-texto-icon {
+    font-size: 40px;
+}
+
+.sobre-logo {
+    position: absolute;
+    width: 300px;
+    right: 137px;
+}
