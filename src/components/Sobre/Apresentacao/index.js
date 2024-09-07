@@ -2,6 +2,7 @@ import { BiSmile } from "react-icons/bi";
 import "./styles.css";
 import logo from "../../../assets/logo.svg";
 
+
 export default function SobreApresentacao() {
     return (
         <div className="sobre-apresentacao">

@@ -1,0 +1,80 @@
+.contatos-apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    padding: 134px 80px;
+    gap: 150px;
+
+    background-image: url("../../assets/Contatos/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-blend-mode: screen;
+
+    background-color: var(--background-light-pink);
+}
+
+.contatos-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contatos-nome {
+    font: var(--header-large);
+}
+
+.contatos-idade {
+    font: var(--header-mid);
+}
+
+.contatos-alt {
+    font: var(--text-small);
+}
+
+.contatos-link {
+    text-decoration: none;
+    color: var(--logo-dark-purple);
+    font: var(--header-small);
+    background: linear-gradient(var(--logo-purple), var(--logo-purple)) bottom / 0% 3px no-repeat;
+
+    transition: 0.5s ease-in-out;
+}
+
+.contatos-link:hover {
+    color: var(--logo-purple);
+    background-size: 100% 3px;
+}
+
+.contatos-redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.contatos-redes-titulo {
+    font: var(--header-mid);
+}
+
+.contatos-icon-area {
+    display: flex;
+    gap: 55px;
+}
+
+.contatos-icon {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 140px;
+    color: black;
+
+    transition: 0.5s ease-in-out;
+}
+
+.contatos-icon:hover {
+    transform: scale(1.1);
+    color: var(--logo-purple);
+}
