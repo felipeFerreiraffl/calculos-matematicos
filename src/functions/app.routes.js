@@ -3,17 +3,29 @@ import HomePagina from "../pages/home";
 import ContatosPagina from "../pages/contatos";
 import SobrePagina from "../pages/sobre";
 import { AnimatePresence } from "framer-motion";
+import CalculosPagina from "../pages/calculos";
 
 export default function AppRoutes() {
     const location = useLocation();
 
     return (
-        <AnimatePresence mode="wait">
-            <Routes location={location} key={location.pathname}>
-                <Route element={<HomePagina />} path='/' />
-                <Route element={<SobrePagina />} path='/sobre' />
-                <Route element={<ContatosPagina />} path='/contatos' />
-            </Routes>
-        </AnimatePresence>
+        <Routes location={location} key={location.pathname}>
+            <Route 
+                path='/' 
+                element={<HomePagina />} 
+            />
+            <Route 
+                path='/sobre' 
+                element={<SobrePagina />} 
+            />
+            <Route 
+                path='/calculos' 
+                element={<CalculosPagina />} 
+            />
+            <Route 
+                path='/contatos' 
+                element={<ContatosPagina />} 
+            />
+        </Routes>
     );
 }

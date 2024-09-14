@@ -5,14 +5,9 @@ import { motion } from "framer-motion";
 
 export default function ContatosPagina() {
     return (
-        <motion.div className="contatos-pagina"
-            initial={{ y: window.innerHeight }}
-            animate={{ y: 0 }}
-            exit={{ y: window.innerHeight }}
-            transition={{ duration: 0.7 }}
-        >
+        <div className="contatos-pagina">
             <Header />
             <ContatosApresentacao />
-        </motion.div>
+        </div>
     );
 } 

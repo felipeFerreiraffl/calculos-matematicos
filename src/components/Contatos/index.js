@@ -4,11 +4,7 @@ import { motion } from "framer-motion";
 
 export default function ContatosApresentacao() {
     return (
-        <motion.div className="contatos-apresentacao"
-            initial={{ x: -window.innerWidth }}
-            animate={{ x: 0 }}
-            transition={{ duration: 1.5 }}
-        >
+        <div className="contatos-apresentacao">
             <div className="contatos-texto">
                 <p className="contatos-nome">Felipe Ferreira Lima</p>
                 <p className="contatos-idade">20 anos</p>
@@ -38,6 +34,6 @@ export default function ContatosApresentacao() {
                     </a>
                 </div>
             </div>
-        </motion.div>
+        </div>
     );
 }
