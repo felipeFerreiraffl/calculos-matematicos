@@ -1,9 +1,22 @@
-.calculos-card {
+.calculos-card-box {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+}
+
+.calculos-mat,
+.calculos-fis,
+.calculos-imc,
+.calculos-jur {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
     width: 280px;
     height: 390px;
+    overflow: hidden;
 
     border-radius: 40px;
 
@@ -11,6 +24,83 @@
     transition: 0.5s ease-in-out;
 }
 
-.calculos-titulo {
-    font: var(--text-small);
+.calculos-mat::before,
+.calculos-fis::before,
+.calculos-imc::before,
+.calculos-jur::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    filter: blur(2px);
+
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.calculos-mat {
+    background-color: rgba(255, 71, 71, 0.7);
+}
+
+.calculos-fis {
+    background-color: rgba(70, 130, 180, 0.7);
+}
+
+.calculos-imc {
+    background-color: rgba(127, 255, 0, 0.7);
+}
+
+.calculos-jur {
+    background-color: rgba(255, 224, 59, 0.7);
+}
+
+.calculos-mat::before {
+    background-image: url("../../../assets/Cálculos/math.png");
+    background-color: rgba(255, 71, 71, 0.7);
+}
+
+.calculos-fis::before {
+    background-image: url("../../../assets/Cálculos/physics.png");
+    background-color: rgba(70, 130, 180, 0.7);
+}
+
+.calculos-imc::before {
+    background-image: url("../../../assets/Cálculos/imc.png");
+    background-color: rgba(127, 255, 0, 0.7);
+}
+
+.calculos-jur::before {
+    background-image: url("../../../assets/Cálculos/fees.png");
+    background-color: rgba(255, 224, 59, 0.7);
+}
+
+.calculos-mat:hover::before,
+.calculos-fis:hover::before,
+.calculos-imc:hover::before,
+.calculos-jur:hover::before {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.calculos-card-titulo {
+    position: relative;
+
+    font: var(--header-small);
+}
+
+.calculos-link {
+    text-decoration: none;
+    color: var(--page-black);
+}
+
+.calculos-link:hover {
+    color: var(--logo-dark-purple);
 }

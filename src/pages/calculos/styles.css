@@ -1,1 +1,17 @@
-;
+.calculos-pagina {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calculos-card-area {
+    margin-top: 73px;
+}
+
+.calculos-titulo {
+    margin-top: 60px;
+
+    color: var(--page-black);
+    font: var(--header-large-2);
+}

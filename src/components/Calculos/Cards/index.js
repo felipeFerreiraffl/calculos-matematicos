@@ -1,23 +1,29 @@
-import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
-export default function CalculosCard({ titulo, img, cor }) {
-    const [isHovered, setIsHovered] = useState(false);
-
-    const handleMouseEnter = () => setIsHovered(true);
-    const handleMouseLeave = () => setIsHovered(false);
-    
-    return(
-        <div className="calculos-card" 
-            style={{ backgroundColor: cor }}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-        >
-            <div 
-                className={`calculos-background ${isHovered ? 'hover' : ''}`} 
-                style={{ backgroundImage: img }}
-            />
-            <p className="calculos-titulo">{titulo}</p>
+export default function CalculosCard() {
+  return (
+    <div className="calculos-card-box">
+      <Link className="calculos-link" to={"/calculos/matematica"}>
+        <div className="calculos-mat">
+          <p className="calculos-card-titulo">Matemática</p>
         </div>
-    );
+      </Link>
+      <Link className="calculos-link" to={"/calculos/fisica"}>
+        <div className="calculos-fis">
+          <p className="calculos-card-titulo">Física</p>
+        </div>
+      </Link>
+      <Link className="calculos-link" to={"/calculos/imc"}>
+        <div className="calculos-imc">
+          <p className="calculos-card-titulo">IMC</p>
+        </div>
+      </Link>
+      <Link className="calculos-link" to={"/calculos/juros"}>
+        <div className="calculos-jur">
+          <p className="calculos-card-titulo">Juros</p>
+        </div>
+      </Link>
+    </div>
+  );
 }
