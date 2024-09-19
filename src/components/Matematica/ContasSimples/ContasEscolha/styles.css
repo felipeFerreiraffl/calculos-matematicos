@@ -1,0 +1,44 @@
+.mat-contas-escolha {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.mat-contas-escolha-area-1,
+.mat-contas-escolha-area-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mat-contas-escolha-area-1 {
+    gap: 127px;
+}
+
+.mat-contas-escolha-area-2 {
+    gap: 108px;
+}
+
+.mat-contas-label {
+    font: var(--header-small);
+    color: var(--page-black);
+}
+
+.mat-contas-opcoes-area,
+.mat-contas-input {
+    width: 75px;
+    height: 60px;
+    border: solid 5px var(--page-black);
+    border-radius: 20px;
+    font: var(--header-small);
+}
+
+.mat-contas-input {
+    text-align: center;
+    font: var(--header-small);
+}
+
+.mat-contas-input::-webkit-outer-spin-button,
+.mat-contas-input::-webkit-inner-spin-button {
+    display: none;
+}

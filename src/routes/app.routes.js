@@ -2,8 +2,8 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import HomePagina from "../pages/home";
 import ContatosPagina from "../pages/contatos";
 import SobrePagina from "../pages/sobre";
-import { AnimatePresence } from "framer-motion";
 import CalculosPagina from "../pages/calculos";
+import MatPagina from "../pages/matematica";
 
 export default function AppRoutes() {
     const location = useLocation();
@@ -25,6 +25,10 @@ export default function AppRoutes() {
             <Route 
                 path='/contatos' 
                 element={<ContatosPagina />} 
+            />
+            <Route 
+                path="/calculos/matematica"
+                element={<MatPagina />}
             />
         </Routes>
     );

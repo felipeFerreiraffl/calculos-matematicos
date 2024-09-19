@@ -17,7 +17,7 @@ export default function SobreApresentacao() {
                     <BiSmile className="sobre-texto-icon" />
                 </div>
             </div>
-            <img className="sobre-logo" src={logo} alt="Cálculos" />
+            <img className="sobre-logo" src={logo} width={{width: "300px"}} height={{height: "315px"}} alt="Cálculos" />
         </div>
     );
 }

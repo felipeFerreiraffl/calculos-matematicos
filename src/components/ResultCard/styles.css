@@ -1,0 +1,5 @@
+.resultado-area {
+    padding: 44px 78px;
+    border: solid 5px var(--page-black);
+    border-radius: 40px;
+}

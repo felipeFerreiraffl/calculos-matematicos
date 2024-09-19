@@ -40,7 +40,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: soft-light;
-    filter: blur(2px);
 
     opacity: 0;
     transition: 0.5s ease-in-out;
