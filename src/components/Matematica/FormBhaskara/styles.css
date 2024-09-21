@@ -1,0 +1,37 @@
+.bhask-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bhask-titulo {
+    font: var(--header-large);
+    color: var(--page-black);
+}
+
+.bhask-result-rep {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.bhask-result-area {
+    display: flex;
+    align-items: center;
+    gap: 106px;
+}
+
+.bhask-result {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bhask-label {
+    font: var(--header-mid);
+    color: var(--page-black);
+}

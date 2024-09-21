@@ -1,7 +1,7 @@
 import "./styles.css";
 import CalcBotao from "../../../CalcularBotao/index";
 
-export default function ContasEscolha() {
+function ContasEscolha() {
     return (
         <div className="mat-contas-escolha">
             <div className="mat-contas-escolha-area-1">
@@ -28,3 +28,5 @@ export default function ContasEscolha() {
         </div>
     );
 }
+
+export default ContasEscolha;

@@ -4,6 +4,9 @@ import ContatosPagina from "../pages/contatos";
 import SobrePagina from "../pages/sobre";
 import CalculosPagina from "../pages/calculos";
 import MatPagina from "../pages/matematica";
+import FisicaPagina from "../pages/fisica";
+import ImcPagina from '../pages/imc/index'
+import JurPagina from '../pages/juros/index'
 
 export default function AppRoutes() {
     const location = useLocation();
@@ -29,6 +32,18 @@ export default function AppRoutes() {
             <Route 
                 path="/calculos/matematica"
                 element={<MatPagina />}
+            />
+            <Route 
+                path="/calculos/fisica"
+                element={<FisicaPagina />}
+            />
+            <Route 
+                path="/calculos/imc"
+                element={<ImcPagina />}
+            />
+            <Route 
+                path="/calculos/juros"
+                element={<JurPagina />}
             />
         </Routes>
     );

@@ -1,7 +1,7 @@
 import "./styles.css";
 import HeaderBotao from "./Button";
 
-export default function Header() {
+function Header() {
     return (
         <nav className="header-area">
             <div className="header-botao-area">
@@ -12,3 +12,5 @@ export default function Header() {
         </nav>
     );
 }
+
+export default Header;

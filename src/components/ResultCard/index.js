@@ -1,6 +1,6 @@
 import "./styles.css";
 
-export default function Resultado({ valor, cor }) {
+function Resultado({ valor, cor }) {
     const colorStyle = {
         backgroundColor: `${cor}`
     };
@@ -9,3 +9,5 @@ export default function Resultado({ valor, cor }) {
         <output className="resultado-area" style={colorStyle}>{valor}</output>
     );
 }
+
+export default Resultado;

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./styles.css";
 
-export default function CalculosCard() {
+function CalculosCard() {
   return (
     <div className="calculos-card-box">
       <Link className="calculos-link" to={"/calculos/matematica"}>
@@ -27,3 +27,5 @@ export default function CalculosCard() {
     </div>
   );
 }
+
+export default CalculosCard;

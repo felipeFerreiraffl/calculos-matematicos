@@ -1,0 +1,22 @@
+.operacao-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.operacao-label {
+    font: var(--header-small);
+    color: var(--page-black);
+}
+
+.operacao-input {
+    outline: none;
+    text-align: center;
+    width: 90px;
+    height: 72px;
+
+    border: solid 5px var(--page-black);
+    border-radius: 20px;
+    font: var(--header-small);
+}

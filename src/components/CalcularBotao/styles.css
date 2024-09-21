@@ -4,4 +4,10 @@
     border: solid 5px var(--page-black);
     border-radius: 30px;
     font: var(--header-mid-2);
+
+    transition: 0.5s ease-in-out;
+}
+
+.calcular-botao:hover {
+    transform: scale(1.1);
 }

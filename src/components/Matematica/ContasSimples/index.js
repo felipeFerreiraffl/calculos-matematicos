@@ -2,7 +2,7 @@ import ContasEscolha from "./ContasEscolha";
 import Resultado from "../../ResultCard/index";
 import "./styles.css";
 
-export default function ContasSimples() {
+function ContasSimples() {
     return (
         <div className="mat-contas-simples">
             <h1 className="mat-contas-simples-titulo">Contas simples</h1>
@@ -15,3 +15,5 @@ export default function ContasSimples() {
         </div>
     );
 }
+
+export default ContasSimples;

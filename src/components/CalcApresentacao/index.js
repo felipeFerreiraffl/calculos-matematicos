@@ -1,6 +1,6 @@
 import "./styles.css";
 
-export default function CalcApresentacao({ titulo, sub1, sub2, logo, imgBackground, cor, corLogo }) {
+function CalcApresentacao({ titulo, sub1, sub2, logo, imgBackground, cor, corLogo }) {
     const styleBackground = {
         backgroundImage: `url(${imgBackground})`,
         backgroundPosition: 'center',
@@ -25,3 +25,5 @@ export default function CalcApresentacao({ titulo, sub1, sub2, logo, imgBackgrou
         </div>
     );
 }
+
+export default CalcApresentacao;

@@ -1,6 +1,7 @@
 import "./styles.css";
-import ResultCard from '../../ResultCard/index'
-import CalcularBotao from '../../CalcularBotao/index'
+import CalcularBotao from '../../CalcularBotao/index';
+import Operacao from '../../Operacao/index';
+import Resultado from "../../ResultCard/index";
 
 export default function RaizQuad() {
     return (
@@ -8,11 +9,10 @@ export default function RaizQuad() {
             <h1 className="raiz-titulo">Raiz quadrada</h1>
             <div className="raiz-operacao-area">
                 <div className="raiz-operacao">
-                    <label className="raiz-label" htmlFor="raiz">Número</label>
-                    <input className="raiz-input" id="raiz" type="number" />
+                    <Operacao titulo={"Número"} />
                     <CalcularBotao cor={"var(--math-red)"} />
                 </div>
-                <ResultCard cor={"var(--math-red)"} />
+                <Resultado cor={"var(--math-red)"} />
             </div>
         </div>
     );

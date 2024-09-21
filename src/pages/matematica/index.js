@@ -16,7 +16,7 @@ export default function MatPagina() {
                     titulo={"Matemática"}
                     sub1={"Aqui você pode fazer cálculos existentes de matemática, como"}
                     sub2={"Soma, subtração, multiplicação, divisão, raiz quadrada, etc."}
-                    logo={<BiMath className="mat-logo" />}
+                    logo={<BiMath />}
                     corLogo={"var(--math-red)"}
                 />
                 <MatCalculos />

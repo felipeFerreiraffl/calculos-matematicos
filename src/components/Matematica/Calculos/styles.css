@@ -13,6 +13,13 @@
     background-color: rgba(255, 71, 71, 0.7);
 }
 
+.mat-contas-2,
+.mat-contas-3 {
+    display: flex;
+    align-items: start;
+    gap: 155px;
+}
+
 .mat-divisor {
     margin-top: 67px;
     margin-bottom: 67px;

@@ -1,0 +1,32 @@
+.delta-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delta-titulo {
+    font: var(--header-large);
+    color: var(--page-black);
+}
+
+.delta-operacao-area {
+    display: flex;
+    align-items: center;
+    gap: 115px;
+    margin-top: 35px;
+}
+
+.delta-operacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.delta-rep {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}

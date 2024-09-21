@@ -1,0 +1,47 @@
+.pot-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pot-titulo {
+    font: var(--header-large);
+    color: var(--page-black);
+}
+
+.pot-operacao {
+    display: flex;
+    align-items: center;
+    gap: 97px;
+}
+
+.pot-operacao-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 32px;
+}
+
+.pot-label {
+    font: var(--header-small);
+    color: var(--page-black);
+}
+
+.pot-input {
+    outline: none;
+    text-align: center;
+    width: 90px;
+    height: 72px;
+    margin-bottom: 20px;
+
+    border: solid 5px var(--page-black);
+    border-radius: 20px;
+    font: var(--header-small);
+}
+
+.pot-input::-webkit-outer-spin-button,
+.pot-input::-webkit-inner-spin-button {
+    display: none;
+}
