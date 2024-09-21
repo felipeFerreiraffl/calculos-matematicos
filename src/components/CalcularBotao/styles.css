@@ -1,0 +1,7 @@
+.calcular-botao {
+    cursor: pointer;
+    padding: 10px 30px;
+    border: solid 5px var(--page-black);
+    border-radius: 30px;
+    font: var(--header-mid-2);
+}
