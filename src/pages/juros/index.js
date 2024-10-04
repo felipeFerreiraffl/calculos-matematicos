@@ -3,6 +3,7 @@ import Header from '../../components/Header/index'
 import CalcApresentacao from '../../components/CalcApresentacao/index'
 import jurBackground from '../../assets/Cálculos/fees.png';
 import { BiMoney } from 'react-icons/bi';
+import JurCalculos from '../../components/Juros/Calculos';
 
 function JurPagina() {
     return (
@@ -18,6 +19,7 @@ function JurPagina() {
                     sub1={"Parece preocupado com seu dinheiro... Não se preocupe"}
                     sub2={"Calcule tanto juros simples quanto juros compostos"}
                 />
+                <JurCalculos />
             </div>
         </div>
     );

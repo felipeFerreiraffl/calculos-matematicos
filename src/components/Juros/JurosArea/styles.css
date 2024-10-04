@@ -1,0 +1,42 @@
+.jur-conta-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jur-conta {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.jur-conta-resul-area {
+    display: flex;
+    align-items: start;
+    gap: 110px;
+}
+
+.jur-conta-resultado {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    gap: 54px;
+}
+
+.jur-conta-titulo {
+    font: var(--header-large);
+    color: var(--page-black);
+}
+
+.jur-conta-subtitulo {
+    font: var(--header-mid);
+    color: var(--page-black);
+}
+
+.jur-conta-operacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 26px;
+}

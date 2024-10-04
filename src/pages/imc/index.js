@@ -3,6 +3,7 @@ import CalcApresentacao from '../../components/CalcApresentacao';
 import Header from '../../components/Header';
 import imcBackground from '../../assets/Cálculos/imc.png';
 import { BiHealth } from 'react-icons/bi';
+import ImcCalculos from '../../components/Imc/Calculos';
 
 function ImcPagina() {
     return (
@@ -18,6 +19,7 @@ function ImcPagina() {
                     sub1={"Quer saber se sua saúde está em dia?"}
                     sub2={"Calcule seu IMC e veja se está no peso ideal"}
                 />
+                <ImcCalculos />
             </div>
         </div>
     );

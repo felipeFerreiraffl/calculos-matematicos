@@ -1,0 +1,7 @@
+.calc-divisor {
+    margin-top: 67px;
+    margin-bottom: 67px;
+    width: 1023px;
+    height: 5px;
+    background-color: var(--page-black);
+}

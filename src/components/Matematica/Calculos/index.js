@@ -4,17 +4,18 @@ import Raiz from '../Raiz/index'
 import Potencia from '../Potencia/index'
 import FormDelta from '../FormDelta/index'
 import FormBhaskara from '../FormBhaskara/index'
+import CalcDivisor from "../../DivisorCalc";
 
 export default function MatCalculos() {
     return (
         <div className="mat-calculos-area">
             <ContasSimples />
-            <hr className="mat-divisor" />
+            <CalcDivisor />
             <div className="mat-contas-2">
                 <Raiz />
                 <Potencia />
             </div>
-            <hr className="mat-divisor" />
+            <CalcDivisor />
             <div className="mat-contas-3">
                 <FormDelta />
                 <FormBhaskara />

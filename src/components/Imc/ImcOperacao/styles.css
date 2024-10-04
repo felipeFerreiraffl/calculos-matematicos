@@ -1,0 +1,33 @@
+.imc-conta {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.imc-conta-label {
+    font: var(--header-mid);
+    color: var(--page-black);
+}
+
+.imc-conta-input-area {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 17px;
+}
+
+.imc-conta-input {
+    outline: none;
+    text-align: center;
+    width: 160px;
+    height: 90px;
+    border: solid 5px var(--page-black);
+    border-radius: 20px;
+    font: var(--header-mid);
+}
+
+.imc-conta-input::-webkit-outer-spin-button,
+.imc-conta-input::-webkit-inner-spin-button {
+    display: none;
+}

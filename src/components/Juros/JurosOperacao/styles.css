@@ -1,0 +1,45 @@
+.jur-operacao-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.jur-operacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.jur-label {
+    font: var(--header-small);
+    color: var(--page-black);
+}
+
+.jur-input-1,
+.jur-input-2,
+.jur-input-3 {
+    outline: none;
+    text-align: center;
+
+    border: solid 5px var(--page-black);
+    border-radius: 20px;
+    font: var(--header-small);
+    color: var(--page-black);
+}
+
+.jur-input-1 {
+    width: 190px;
+    height: 72px;
+}
+
+.jur-input-2 {
+    width: 115px;
+    height: 75px;
+}
+
+.jur-input-3 {
+    width: 100px;
+    height: 72px;
+}

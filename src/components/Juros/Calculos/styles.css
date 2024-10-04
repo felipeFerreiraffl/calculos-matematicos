@@ -1,0 +1,22 @@
+.jur-calulos-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 67px 64px;
+    margin-top: 105px;
+    margin-bottom: 80px;
+    margin-left: 82px;
+    margin-right: 82px;
+    
+    border-radius: 50px;
+    background-color: rgba(255, 224, 59, 0.7);
+}
+
+.jur-divisor {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: calc(100% - 180px);
+    height: 5px;
+
+    background-color: var(--page-black);
+}

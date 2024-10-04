@@ -1,0 +1,28 @@
+.imc-resultado-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.imc-resultado-out {
+    text-align: center;
+    width: 260px;
+    height: 190px;
+    border: solid 5px var(--page-black);
+    border-radius: 40px;
+    background-color: var(--imc-green);
+}
+
+.imc-nivel {
+    text-align: center;
+    padding: 22px 109px;
+    border: solid 5px var(--page-black);
+    border-radius: 40px;
+    font: var(--header-mid);
+}
+
+.imc-unidade {
+    font: var(--header-mid);
+    color: var(--page-black);
+}

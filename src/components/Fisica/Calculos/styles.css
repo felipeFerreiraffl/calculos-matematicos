@@ -1,21 +1,20 @@
-.mat-calculos-area {
+.fis-calculos-area {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin-top: 105px;
     margin-bottom: 80px;
     margin-left: 82px;
     margin-right: 82px;
-    padding: 87px 74px;
-    
+    padding: 87px 50px;
+
     border-radius: 50px;
-    background-color: rgba(255, 71, 71, 0.7);
+    background-color: rgba(70, 130, 180, 0.7);
 }
 
-.mat-contas-2,
-.mat-contas-3 {
+.fis-calculos {
     display: flex;
     align-items: start;
-    gap: 155px;
+    gap: 150px;
 }

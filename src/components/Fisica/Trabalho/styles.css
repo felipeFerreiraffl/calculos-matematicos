@@ -1,0 +1,36 @@
+.fis-trabalho-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fis-trabalho-titulo {
+    font: var(--header-large);
+    color: var(--page-black);
+}
+
+.fis-trabalho-operacao-area {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.fis-trabalho-operacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    margin-top: 35px;
+}
+
+.fis-trabalho-expli {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.fis-trabalho-unidade {
+    font: var(--header-small);
+    color: var(--page-black);
+}

@@ -1,0 +1,33 @@
+.imc-calculos-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 105px;
+    margin-bottom: 80px;
+    margin-left: 82px;
+    margin-right: 82px;
+    padding: 87px 221px;
+
+    background-color: rgba(127, 255, 0, 0.7);
+    border-radius: 50px;
+}
+
+.imc-calculos-titulo {
+    font: var(--header-large);
+    color: var(--page-black);
+}
+
+.imc-operacao-area {
+    display: flex;
+    align-items: center;
+    gap: 206px;
+    margin-top: 50px;
+}
+
+.imc-operacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
