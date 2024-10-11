@@ -9,7 +9,7 @@ import { potencia } from "../../../scripts/matematica";
 export default function Potencia() {
     const [base, setBase] = useState('');
     const [expo, setExpo] = useState('');
-    const [resultado, setResultado] = useState(null);
+    const [resultado, setResultado] = useState(0);
 
     // Calcula a potência ao clicar no botão
     const calcPot = () => {

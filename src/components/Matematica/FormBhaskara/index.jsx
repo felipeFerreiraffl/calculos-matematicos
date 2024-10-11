@@ -11,8 +11,8 @@ export default function FormBhaskara({ a, b, delta }) {
     // Verificação dos valores para o cálculo de Bhaskara
     const isReadyToCalculate = a !== null && b !== null && delta >= 0;
 
-    const xPositivo = isReadyToCalculate ? bhaskaraPositivo(b, a, delta) : '';
-    const xNegativo = isReadyToCalculate ? bhaskaraNegativo(b, a, delta) : '';
+    const xPositivo = isReadyToCalculate ? bhaskaraPositivo(b, a, delta) : 0;
+    const xNegativo = isReadyToCalculate ? bhaskaraNegativo(b, a, delta) : 0;
 
     return (
         <div className="bhask-area">

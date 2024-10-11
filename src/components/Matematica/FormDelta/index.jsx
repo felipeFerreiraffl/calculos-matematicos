@@ -10,7 +10,7 @@ export default function FormDelta({ deltaValor }) {
     const [a, setA] = useState('');
     const [b, setB] = useState('');
     const [c, setC] = useState('');
-    const [resultado, setResultado] = useState(null);
+    const [resultado, setResultado] = useState(0);
 
     const calcDelta = () => {
         const numA = parseFloat(a);

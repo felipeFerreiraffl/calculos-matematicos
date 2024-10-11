@@ -7,7 +7,7 @@ import { raizQuad } from "../../../scripts/matematica";
 
 export default function RaizQuad() {
     const [base, setBase] = useState('');
-    const [resultado, setResultado] = useState(null);
+    const [resultado, setResultado] = useState(0);
 
     // Função de calcular a raiz quadrada
     const calcRaiz = () => {

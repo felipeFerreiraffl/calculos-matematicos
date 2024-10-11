@@ -58,7 +58,7 @@ function ContasEscolha({ aoCalcular }) {
             }
         }
 
-        aoCalcular(resultado);
+        aoCalcular(resultado.toFixed(2));
     }
 
     return (
