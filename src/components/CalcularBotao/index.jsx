@@ -1,6 +1,6 @@
 import "./styles.css";
 
-export default function CalcBotao({ cor, onClick }) {
+function CalcBotao({ cor, onClick }) {
     const colorStyle = {
         backgroundColor: `${cor}`
     }
@@ -15,3 +15,5 @@ export default function CalcBotao({ cor, onClick }) {
         </button>
     );
 }
+
+export default CalcBotao;

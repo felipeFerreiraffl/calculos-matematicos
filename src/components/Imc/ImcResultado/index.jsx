@@ -1,10 +1,14 @@
 import './styles.css';
 
-function ImcResultado() {
+function ImcResultado({ valor, nivel, cor }) {
+    const colorStyle = {
+        backgroundColor: `${cor}`
+    }
+
     return (
         <div className='imc-resultado-area'>
-            <output className='imc-resultado-out'></output>
-            <p className='imc-nivel'></p>
+            <output className='imc-resultado-out'>{valor}</output>
+            <p className='imc-nivel' style={colorStyle}>{nivel}</p>
         </div>
     );
 }

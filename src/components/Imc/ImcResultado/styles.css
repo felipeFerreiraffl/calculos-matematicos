@@ -6,9 +6,12 @@
 }
 
 .imc-resultado-out {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 260px;
     height: 190px;
+    font: var(--header-mid);
     border: solid 5px var(--page-black);
     border-radius: 40px;
     background-color: var(--imc-green);
