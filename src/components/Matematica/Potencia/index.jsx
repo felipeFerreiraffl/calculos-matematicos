@@ -4,7 +4,7 @@ import CalcularBotao from '../../CalcularBotao/index'
 import Operacao from "../../Operacao";
 import Resultado from "../../ResultCard";
 import { useState } from "react";
-import { calcPotencia } from "../../../scripts/matematica";
+import { potencia } from "../../../scripts/matematica";
 
 export default function Potencia() {
     const [base, setBase] = useState('');
@@ -17,7 +17,7 @@ export default function Potencia() {
         const expoNum = parseFloat(expo);
 
         if (!isNaN(baseNum) && !isNaN(expoNum)) {
-            setResultado(calcPotencia(baseNum, expoNum));
+            setResultado(potencia(baseNum, expoNum));
         } else {
             setResultado('Valores inválidos');
         }
