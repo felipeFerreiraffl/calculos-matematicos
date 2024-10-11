@@ -3,7 +3,10 @@ export const potencia = (base, expoente) => {
 }
 
 export const raizQuad = (base) => {
-    return Math.sqrt(base).toFixed(2);
+    const raiz = Math.sqrt(base);
+    const resul = raiz % 1 === 0 ? raiz : raiz.toFixed(2);
+
+    return resul;
 }
 
 export const delta = (a, b, c) => {
@@ -11,9 +14,15 @@ export const delta = (a, b, c) => {
 }
 
 export const bhaskaraPositivo = (b, a, delta) => {
-    return ((-b + (Math.sqrt(delta))) / (2 * a)).toFixed(2);
+    const bhaskPos = (-b + (Math.sqrt(delta))) / (2 * a);
+    const resul = bhaskPos % 1 === 0 ? bhaskPos : bhaskPos.toFixed(2);
+
+    return resul;
 }
 
 export const bhaskaraNegativo = (b, a, delta) => {
-    return ((-b - (Math.sqrt(delta))) / (2 * a)).toFixed(2);
+    const bhaskNeg = (-b - (Math.sqrt(delta))) / (2 * a);
+    const resul = bhaskNeg % 1 === 0 ? bhaskNeg : bhaskNeg.toFixed(2);
+
+    return resul;
 }
