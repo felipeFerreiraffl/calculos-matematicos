@@ -2,6 +2,7 @@ import FisOperacao from '../FisOperacao';
 import './styles.css';
 import CalcDivisor from '../../DivisorCalc/index'
 import Trabalho from '../Trabalho/index'
+import { energiaCinetica, energiaPotElastica, energiaPotGravitacional, forca, potencia, velocidade } from '../../../scripts/fisica';
 
 function FisCalculos() {
     return (
@@ -12,12 +13,14 @@ function FisCalculos() {
                     numeroUm={"distância (m)"}
                     numeroDois={"tempo (s)"}
                     unidade={"m/s"} 
+                    calcular={velocidade}
                 />
                 <FisOperacao 
                     tituloForm={"Força (F)"}
                     numeroUm={"massa (kg)"}
                     numeroDois={"aceleração (m/s²)"}
                     unidade={"N"}
+                    calcular={forca}
                 />
             </div>
             <CalcDivisor />
@@ -27,6 +30,7 @@ function FisCalculos() {
                     numeroUm={"massa (kg)"}
                     numeroDois={"velocidade (m/s)"}
                     unidade={"J"}
+                    calcular={energiaCinetica}
                 />
                 <FisOperacao 
                     tituloForm={"Energia potencial gravitacional (E_pg)"}
@@ -34,6 +38,7 @@ function FisCalculos() {
                     numeroDois={"altura (m)"}
                     unidade={"J"}
                     adicional={"g = 10 m/s²"}
+                    calcular={energiaPotGravitacional}
                 />
             </div>
             <CalcDivisor />
@@ -43,6 +48,7 @@ function FisCalculos() {
                     numeroUm={"constante (N/m)"}
                     numeroDois={"deformação (m)"}
                     unidade={"J"}
+                    calcular={energiaPotElastica}
                 />
                 <Trabalho />
             </div>
@@ -53,6 +59,7 @@ function FisCalculos() {
                     numeroUm={"trabalho (J)"}
                     numeroDois={"tempo (s)"}
                     unidade={"W"}
+                    calcular={potencia}
                 />
             </div>
         </div>

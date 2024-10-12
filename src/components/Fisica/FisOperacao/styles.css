@@ -7,11 +7,13 @@
 .fis-conta-titulo {
     font: var(--header-large);
     color: var(--page-black);
+    text-align: center;
 }
 
 .fis-operacao-area {
     display: flex;
     align-items: center;
+    text-align: center;
     gap: 70px;
     margin-top: 35px;
 }

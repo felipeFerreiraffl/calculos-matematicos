@@ -24,6 +24,12 @@
     gap: 54px;
 }
 
+.jur-conta-area {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
 .jur-conta-titulo {
     font: var(--header-large);
     color: var(--page-black);
