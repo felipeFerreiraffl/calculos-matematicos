@@ -37,13 +37,15 @@
 }
 
 .calc-apresentacao-logo {
+    display: flex;
+    align-items: center;
     position: absolute;
+    justify-content: center;
     top: 75px;
     bottom: 75px;
     right: 120px;
     width: 350px;
     height: 350px;
-    padding: 50px;
 
     border: solid 5px var(--page-black);
     font-size: 250px;
